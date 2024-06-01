@@ -1,0 +1,223 @@
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+.navbar-nav .nav-item {
+  font-size: larger;
+  margin-right: 20px; /* Điều chỉnh khoảng cách giữa các mục nếu cần */
+}
+.carousel-item img {
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  /* định vị cho link */
+  padding-bottom: 5px;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  display: block;
+  margin-top: 3px;
+  left: 0;
+  /* background: rgb(168, 223, 42); */
+  background: black;
+  transition: width 0.3s ease, right 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+/* làm cho nó shine */
+.card {
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -200%;
+  width: 150%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.5s;
+  transform: skewX(-20deg);
+}
+.card:hover::before {
+  left: 125%;
+}
+/* làm cho nó shine */
+
+/* cái thứ 2 */
+/* .content-container {
+    background-image: url("https://gcs.tripi.vn/public-tripi/tripi-feed/img/474079IHt/black-background-background-black-tuyet-dep_015232979.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px;
+  } */
+.container1 {
+  background-image: url("https://msmobile.com.vn/upload_images/images/tai-hinh-nen-powerpoint-dep-ve-moi-truong-9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+}
+.content-containerr {
+  background-image: url("https://video.lovepik.com/video_cover/2022/03/18/green-dynamic-particle-leaves-falling-4k-video-template_81236.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container3 {
+  background-image: url("https://intoroigiare.vn/wp-content/uploads/2023/12/background-xanh-la-nhat.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+}
+.content-container {
+  background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/vector-spring-floral-background_fJIniTB__SB_PM.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+}
+.ct-container {
+  background-color: rgba(241, 228, 228, 0.8); /* Nền trắng mờ */
+  padding: 20px;
+  border-radius: 10px;
+}
+/* CSS cho ảnh */
+.card-img-top {
+  max-width: 100%;
+  /* max-height: 180px; */
+  /* min-height: 180px; */
+  object-fit: contain;
+  margin: 0px auto;
+  /* margin-top: 2px; */
+  top: 0;
+  right: 0;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hiệu ứng khi di chuột vào ảnh */
+.card-img-top:hover {
+  transform: scale(1.05); /* Phóng to ảnh */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm đổ bóng */
+}
+/* tạo chuyển động cho nút xem thêm */
+#myButton {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+#myButton .overlay {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: left 2s ease;
+}
+
+#myButton:hover .overlay {
+  left: 0;
+}
+
+#myButton a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  color: inherit; /* Giữ màu sắc văn bản như ban đầu */
+  text-decoration: none; /* Bỏ gạch chân */
+}
+
+#myButton a strong {
+  position: relative;
+  z-index: 2;
+}
+/* tạo khung viền */
+.content-containerr .card {
+  border: 3px solid #000;
+  border-radius: 10px;
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+}
+.content-containerr .card:hover {
+  animation: rotateCard 2.4s ease-in-out forwards;
+}
+@keyframes rotateCard {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.container4 {
+  background-image: url("https://cdn.mobilecity.vn/mobilecity-vn/images/2024/03/hinh-nen-powerpoint-xanh-la-4.jpg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container5 {
+  background-image: url("https://gitiho.com/caches/p_medium_large//uploads/338054/images/image_42-hinh-nen-powerpoint-cay-xanh.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+}
+.mau {
+  color: black;
+}
+.khung {
+  border: 3px solid #000;
+  border-radius: 20px;
+}
+/* cho thẻ a chuyển động */
+.mau {
+  position: relative;
+  text-decoration: none;
+  color: inherit; /* Giữ nguyên màu sắc của link */
+  padding-bottom: 5px;
+}
+
+.mau::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  display: block;
+  margin-top: 3px;
+  left: 0;
+  background: black;
+  transition: width 0.3s ease;
+}
+
+.mau:hover::after {
+  width: 100%;
+}
