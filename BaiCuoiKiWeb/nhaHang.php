@@ -1,6 +1,8 @@
 <?php 
   include "top_menu.php";
 ?>
+
+
     <div id="myCarousel" class="carousel slide border" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -9,12 +11,12 @@
             src="https://kansaipaint.com.vn/wp-content/uploads/2023/09/quan-an-nen-son-mau-gi-4.jpg"
             alt="Leopard"
           />
-          <div class="carousel-caption d-none d-sm-block">
+          <div class="carousel-caption d-none d-sm-block" >
             <marquee
               style="direction: center; behavior: Slide; scroll-behavior: 1s"
             >
-              <h1  class="text-light title">CHÀO MỪNG BẠN</h1>
-              <h2 class="mb-5 text-light title">
+              <h1  class="text-light">CHÀO MỪNG BẠN</h1>
+              <h2 class="mb-5 text-light ">
                 CHÀO MỪNG BẠN ĐẾN VỚI NHÀ HÀNG CHÚNG TÔI
               </h2>
             </marquee>
@@ -74,6 +76,9 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+   
+   
 
     <!-- code about us -->
     <div class="container-fluid container3 text-dark text-center">

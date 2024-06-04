@@ -21,13 +21,12 @@
 </head>
 <body>
 <nav id="navbar" class="navbar navbar-expand-sm bg-light navbar-light">
-        <!-- Brand -->
-        <img
+        <a style="width: 100px; height: 70px" href="nhaHang.php">       <img
           class="khung"
-          style="width: 6%"
+          style="width: 70%"
           src="https://banoca.com/wp-content/uploads/2021/03/logo-nha-hang.jpg"
           alt=""
-        />
+        /></a>
 
         <!-- Toggler/collapsible Button -->
         <button
@@ -52,7 +51,7 @@
               <a class="nav-link" href="#about"><b>ABOUT US</b></a>
             </li>
             <li class="nav-item hover-underline">
-              <a class="nav-link" href="dauBep.html"><b>OUR CHEFS</b></a>
+              <a class="nav-link" href="dauBep.php"><b>OUR CHEFS</b></a>
             </li>
             <li class="nav-item hover-underline">
               <a class="nav-link" href="#"><b>CONTACT</b></a>
@@ -66,12 +65,12 @@
             <?php if (isset($_SESSION['name'])) {  ?>
           <li class="nav-item hover-underline">
             <div class="nav-link logout">
-              <a href="logout.php"><i class="fa fa-sign-out"></i> LOGOUT</a>
+              <a href="logout.php"><i class="fa fa-sign-out"></i> ĐĂNG XUẤT</a>
             </div>
           </li>
           <?php } else { ?>
           <li class="nav-item hover-underline">
-            <a  class="nav-link" id="login" href="login.php"><i class="fa fa-sign-in"></i> LOGIN</a>
+            <a  class="nav-link" id="login" href="login.php"><i class="fa fa-sign-in"></i> ĐĂNG NHẬP</a>
           </li>
           <?php } ?>
           <li class="nav-item hover-underline">

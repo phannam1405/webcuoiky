@@ -221,3 +221,22 @@
 .mau:hover::after {
   width: 100%;
 }
+
+#scrollToTopBtn {
+  display: none; /* Ẩn button khi trang load */
+  position: fixed; /* Vị trí cố định */
+  bottom: 20px; /* Cách bottom 20px */
+  right: 20px; /* Cách right 20px */
+  z-index: 99; /* Layer trên cùng */
+  border: none; /* Không có border */
+  outline: none; /* Không có đường viền khi focus */
+  color: white; /* Màu chữ */
+  cursor: pointer; /* Con trỏ khi hover */
+  padding: 15px; /* Khoảng cách giữa nội dung và biên của button */
+  border-radius: 50%; /* Độ cong viền làm tròn button */
+  font-size: 18px; /* Cỡ chữ */
+}
+
+#scrollToTopBtn:hover {
+  background-color: #333; /* Màu nền khi hover */
+}
