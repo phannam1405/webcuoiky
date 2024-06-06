@@ -127,67 +127,47 @@
       <img
         src="https://marketplace.canva.com/EAF8Qsug9jg/2/0/1236w/canva-v%C3%A0ng-v%C3%A0-%C4%91en-m%C5%A9i-t%C3%AAn-ch%E1%BB%89-h%C6%B0%E1%BB%9Bng-doanh-nghi%E1%BB%87p-decal-d%C3%A1n-s%C3%A0n--U_K4t9S1oQ.jpg"
         alt="Go to top"
-        style="width: 40px; height: 40px"
+        style="width: 30px; height: 30px"
       />
     </button>
 
       <!-- code about us -->
       <div class="container-fluid container3 text-dark text-center">
-        <h1 id="about" class="mt-5">CHÀO MỪNG ĐẾN VỚI NHÀ HÀNG CỦA CHÚNG TÔI</h1>
-        <div class="row">
-          <div class="col-md-6">
+    <h1 id="about" class="mt-5">CHÀO MỪNG ĐẾN VỚI NHÀ HÀNG CỦA CHÚNG TÔI</h1>
+    <div1 class="row">
+        <div class="col-md-6">
             <div class="container mt-5">
-              <section class="mt-5">
-                <h2>Câu Chuyện Của Chúng Tôi</h2>
-                <p style="text-align: justify">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Expedita, culpa. Quisquam necessitatibus aliquid natus
-                  asperiores illo dolores tempora iusto in consequatur id rem
-                  maiores incidunt, temporibus accusantium omnis atque ab! Minima
-                  fugiat aut veniam, cumque vel nesciunt corporis cupiditate
-                  dolorum mollitia iure alias tempore commodi, natus id quis
-                  excepturi, voluptas ipsam quidem! In nobis nulla fugiat,
-                  voluptas officia ad rem. Quisquam, consectetur, facilis ut eum
-                  debitis, cupiditate provident ratione quam sit consequatur minus
-                  reprehenderit suscipit. Labore, officiis accusamus!
-                  Reprehenderit magnam omnis autem consequuntur quam. Esse
-                  deserunt aspernatur voluptas praesentium veniam. Possimus
-                  consequatur pariatur odit atque, aliquid libero labore dicta
-                  tempora nesciunt? Incidunt iste ducimus optio ipsum commodi
-                  harum delectus quibusdam dolorum similique illum provident,
-                  reprehenderit cum? Eos natus tempora neque. Minima dignissimos
-                  autem, voluptate accusantium, at expedita quia eius deleniti
-                  exercitationem, alias error! Facilis reprehenderit voluptates
-                  fuga, explicabo, pariatur a, delectus eveniet quisquam odit
-                  voluptate earum natus rem. Iure, dolore.
-                </p>
-              </section>
+                <section class="mt-5">
+                    <h2>Câu Chuyện Của Chúng Tôi</h2>
+                    <p style="text-align: justify">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, culpa. Quisquam necessitatibus aliquid natus asperiores illo dolores tempora iusto in consequatur id rem maiores incidunt, temporibus accusantium omnis atque ab! Minima fugiat aut veniam, cumque vel nesciunt corporis cupiditate dolorum mollitia iure alias tempore commodi, natus id quis excepturi, voluptas ipsam quidem! In nobis nulla fugiat, voluptas officia ad rem. Quisquam, consectetur, facilis ut eum debitis, cupiditate provident ratione quam sit consequatur minus reprehenderit suscipit. Labore, officiis accusamus! Reprehenderit magnam omnis autem consequuntur quam. Esse deserunt aspernatur voluptas praesentium veniam. Possimus consequatur pariatur odit atque, aliquid libero labore dicta tempora nesciunt? Incidunt iste ducimus optio ipsum commodi harum delectus quibusdam dolorum similique illum provident, reprehenderit cum? Eos natus tempora neque. Minima dignissimos autem, voluptate accusantium, at expedita quia eius deleniti exercitationem, alias error! Facilis reprehenderit voluptates fuga, explicabo, pariatur a, delectus eveniet quisquam odit voluptate earum natus rem. Iure, dolore.
+                    </p>
+                </section>
             </div>
-          </div>
-          <div class="col-md-6">
-            <img
-              src="https://img.pikbest.com/origin/09/22/10/18JpIkbEsTuYw.jpg!w700wp"
-              alt=""
-            />
-          </div>
         </div>
-        <br />
-        <!-- video -->
-        <div id="video" style="text-align: center">
-          <iframe
-            width="80%"
-            height="500px"
-            src="https://www.youtube.com/embed/_dui6BUmMBg?si=7kR-c9SaHNGEjeGN"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+        <div  class="col-md-6 col-sm-12">
+            <img src="https://img.pikbest.com/origin/09/22/10/18JpIkbEsTuYw.jpg!w700wp" alt="" class="img-fluid mt-5">
         </div>
-      </div>
 
-      <!-- code menu nhà hàng -->
+        <p></p>
+        <div class="col-md-12 col-sm-12">
+          <div id="video" style="text-align: center">
+            <iframe
+              width="80%"
+              height="500px"
+              src="https://www.youtube.com/embed/_dui6BUmMBg?si=7kR-c9SaHNGEjeGN"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        </div>
+    </div1>
+    <br>
+</div>
       <div class="container-fluid content-container">
         <h1
           style="color: aliceblue; margin-top: 10px"
@@ -209,7 +189,7 @@
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#collapsibleNavbar"
+            data-target="#collapsibleNavbarr"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -217,7 +197,7 @@
           <!-- Navbar links -->
           <div
             class="collapse navbar-collapse justify-content-center"
-            id="collapsibleNavbar"
+            id="collapsibleNavbarr"
           >
             <ul class="navbar-nav">
               <li class="nav-item hover-underline">
@@ -622,7 +602,7 @@
               <a
                 class="mau"
                 style="text-decoration: none"
-                href="map.html"
+                href="map.php"
                 width="100%"
                 height="100%"
                 style="border: 0"
