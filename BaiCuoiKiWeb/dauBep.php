@@ -2,7 +2,7 @@
   include "top_menu.php";
 ?>
       
-      <h1 class="text-center mt-5 cp; text-dark">OUR CHEFF</h1>
+      <h1 class="text-center mt-5 text-dark">OUR CHEFF</h1>
       <div class="row mt-5">
         <div class="col-md-3 col-sm-12">
             <div class="container mt-3 me-3">
@@ -101,6 +101,6 @@
           <p></p>
           <p></p>
           <p></p>
-    </div>
+         
   </body>
 </html>

@@ -148,26 +148,23 @@
         <div  class="col-md-6 col-sm-12">
             <img src="https://img.pikbest.com/origin/09/22/10/18JpIkbEsTuYw.jpg!w700wp" alt="" class="img-fluid mt-5">
         </div>
+        <br />
+        <!-- video -->
+        <div id="video" style="text-align: center">
+          <iframe
+            width="80%"
+            height="500px"
+            src="https://www.youtube.com/embed/_dui6BUmMBg?si=7kR-c9SaHNGEjeGN"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
 
-        <p></p>
-        <div class="col-md-12 col-sm-12">
-          <div id="video" style="text-align: center">
-            <iframe
-              width="80%"
-              height="500px"
-              src="https://www.youtube.com/embed/_dui6BUmMBg?si=7kR-c9SaHNGEjeGN"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-        </div>
-    </div1>
-    <br>
-</div>
+      <!-- code menu nhà hàng -->
       <div class="container-fluid content-container">
         <h1
           style="color: aliceblue; margin-top: 10px"
@@ -528,7 +525,7 @@
 
       <!-- code OurCheff -->
 
-      <div class="container-fluid container4">
+      <div class="container-fluid container4" id="footer">
         <div class="row">
           <div class="col-md-4 text-center mt-5">
             <p>
