@@ -45,16 +45,16 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link hover-underline" href="#menu1"><b>MENU</b></a>
+              <a class="nav-link hover-underline" href="nhaHang.php#thucdon"><b>MENU</b></a>
             </li>
             <li class="nav-item hover-underline">
-              <a class="nav-link" href="#about"><b>ABOUT US</b></a>
+              <a class="nav-link" href="nhaHang.php#about"><b>ABOUT US</b></a>
             </li>
             <li class="nav-item hover-underline">
               <a class="nav-link" href="dauBep.php"><b>OUR CHEFS</b></a>
             </li>
             <li class="nav-item hover-underline">
-              <a class="nav-link" href="#"><b>CONTACT</b></a>
+              <a class="nav-link" href="nhaHang.php#footer"><b>CONTACT</b></a>
             </li>
             <li class="nav-item hover-underline">
               <a class="nav-link" href="table.html"><b>TABLE</b></a>

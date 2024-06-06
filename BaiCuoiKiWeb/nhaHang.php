@@ -188,7 +188,7 @@
       </div>
 
       <!-- code menu nhà hàng -->
-      <div class="container-fluid content-container">
+      <div class="container-fluid content-container" id="thucdon">
         <h1
           style="color: aliceblue; margin-top: 10px"
           class="text-center text-dark"
@@ -548,7 +548,7 @@
 
       <!-- code OurCheff -->
 
-      <div class="container-fluid container4">
+      <div class="container-fluid container4" id="footer">
         <div class="row">
           <div class="col-md-4 text-center mt-5">
             <p>
