@@ -28,8 +28,9 @@ if (isset($_POST['submit'])) {
     }
 }
 ?> 
-	
+	<br>
 <form class="form-1" action="login.php" method ="post">
+  
   <h2 style="color: black">Login Form</h2>
   <?php if ($err_msg !="") ?>
   <p class="err-msg"><?php echo $err_msg; $err_msg ="";?></p>

@@ -12,6 +12,45 @@
     />
     <link rel="stylesheet" href="slide.css" />
     <link rel="stylesheet" href="nhaHang.css" />
+    <style>
+      #navbar {
+        margin-left: -10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        transition: top 0.3s;
+        z-index: 1000;
+      }
+      #resizeButton {
+        width: 50px; /* Chỉ đủ rộng để chứa biểu tượng */
+        height: 50px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: width 0.5s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        overflow: hidden;
+      }
+      #resizeButton:hover {
+        width: 150px; /* Đủ rộng để hiển thị cả văn bản */
+      }
+      #resizeButton a {
+        text-decoration: none;
+        color: white;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        display: inline-block;
+        white-space: nowrap;
+      }
+      #resizeButton:hover a {
+        opacity: 1;
+        margin-left: 8px; /* Tạo khoảng cách giữa icon và text khi text xuất hiện */
+      }
+    </style>
   </head>
   <style>
     #navbar {
@@ -24,66 +63,77 @@
     }
   </style>
   <body>
-      <div class="container nenNgoai mt-5">
+    <div class="container nenNgoai mt-5">
+      <div class="row">
+        <h1 class="text-center mb-5">ĐỒ UỐNG</h1>
         <div class="row">
-          <h1 class="text-center mb-5">ĐỒ UỐNG</h1>
-          <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-              <div id="slide">
-                <div
-                  class="col-md-3 item"
-                  style="
-                    background-image: url(https://cdn.tgdd.vn/Files/2020/11/11/1305994/ruou-soju-gia-bao-nhieu-cach-uong-soju-chuan-han-quoc-202206032226127551.jpg);
-                  "
-                >
-                  <div class="content p-3 bg-white">
-                    <div class="from"><b>RƯỢU SOJU HÀN QUỐC</b></div>
-                    <div class="type"><b>300.000VNĐ</b></div>
-                  </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div id="slide">
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://cdn.tgdd.vn/Files/2020/11/11/1305994/ruou-soju-gia-bao-nhieu-cach-uong-soju-chuan-han-quoc-202206032226127551.jpg);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><b>RƯỢU SOJU HÀN QUỐC</b></div>
+                  <div class="type"><b>300.000VNĐ</b></div>
                 </div>
+              </div>
 
-                <div
-                  class="col-md-3 item"
-                  style="
-                    background-image: url(https://watermark.lovepik.com/photo/20211125/large/lovepik-red-wine-goblet-picture_501016882.jpg);
-                  "
-                >
-                  <div class="content p-3 bg-white">
-                    <div class="from"><b>RƯỢU VANG ĐỎ</b></div>
-                    <div class="name"><b>400.000VND</b></div>
-                  </div>
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://watermark.lovepik.com/photo/20211125/large/lovepik-red-wine-goblet-picture_501016882.jpg);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><b>RƯỢU VANG ĐỎ</b></div>
+                  <div class="name"><b>400.000VND</b></div>
                 </div>
+              </div>
 
-                <div
-                  class="col-md-3 item"
-                  style="
-                    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuj38ZZ4_wYT5LAiODsMwCIPwIgAQhJPNT6g&s);
-                  "
-                >
-                  <div class="content p-3 bg-white">
-                    <div class="from"><b>Hard seltzer</b></div>
-                    <div class="name">70.000VNĐ</div>
-                  </div>
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuj38ZZ4_wYT5LAiODsMwCIPwIgAQhJPNT6g&s);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><b>Hard seltzer</b></div>
+                  <div class="name">70.000VNĐ</div>
                 </div>
+              </div>
 
-                <div
-                  class="col-md-3 item"
-                  style="
-                    background-image: url(https://mqflavor.com/wp-content/uploads/2023/02/celsius-sugar-free-la-dong-nuoc-nang-luong-it-calo.jpg);
-                  "
-                >
-                  <div class="content p-3 bg-white">
-                    <div class="from"><b>CELSIUS</b></div>
-                    <div class="name"><b>50.000VND</b></div>
-                  </div>
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://mqflavor.com/wp-content/uploads/2023/02/celsius-sugar-free-la-dong-nuoc-nang-luong-it-calo.jpg);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><b>CELSIUS</b></div>
+                  <div class="name">50.000VND</div>
                 </div>
+              </div>
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://png.pngtree.com/png-vector/20240309/ourlarge/pngtree-fresh-coconut-water-drink-png-image_11919891.png);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><b>NƯỚC DỪA</b></div>
+                  <div class="name">30.000VND</div>
+                </div>
+              </div>
               <div class="buttons text-center mt-4">
                 <button id="prev" class="btn btn-primary">
-                  <i class="fa-solid fa-arrow-left"></i>
+                  <i class="fa fa-arrow-left"></i>
                 </button>
                 <button id="next" class="btn btn-primary">
-                  <i class="fa-solid fa-arrow-right"></i>
+                  <i class="fa fa-arrow-right"></i>
                 </button>
               </div>
             </div>
@@ -93,9 +143,15 @@
         <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/js/all.min.js"></script>
         <script src="script.js"></script>
       </div>
-      <br>
+      <br />
     </div>
-    <br>
-    <button class="btn btn-primary" ><a style="text-decoration: none;" class="text-light" href="nhaHang.php">QUAY LẠI</a></button>
+    <br />
+    <button id="resizeButton" class="btn btn-primary">
+      <i class="fa fa-arrow-left"></i>
+      <a style="text-decoration: none" class="text-light" href="nhaHang.php"
+        >QUAY LẠI</a
+      >
+    </button>
+    <script src="chuot.js"></script>
   </body>
 </html>

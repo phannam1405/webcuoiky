@@ -12,115 +12,144 @@
     />
     <link rel="stylesheet" href="slide.css" />
     <link rel="stylesheet" href="nhaHang.css" />
+    <style>
+      #navbar {
+        margin-left: -10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        transition: top 0.3s;
+        z-index: 1000;
+      }
+      #resizeButton {
+        width: 50px; /* Chỉ đủ rộng để chứa biểu tượng */
+        height: 50px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: width 0.5s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        overflow: hidden;
+      }
+      #resizeButton:hover {
+        width: 150px; /* Đủ rộng để hiển thị cả văn bản */
+      }
+      #resizeButton a {
+        text-decoration: none;
+        color: white;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        display: inline-block;
+        white-space: nowrap;
+      }
+      #resizeButton:hover a {
+        opacity: 1;
+        margin-left: 8px; /* Tạo khoảng cách giữa icon và text khi text xuất hiện */
+      }
+    </style>
   </head>
-  <style>
-    #navbar {
-      margin-left: -10px;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      transition: top 0.3s;
-      z-index: 1000;
-    }
-  </style>
   <body>
-      <div class="container nenNgoai mt-5">
+    <div class="container nenNgoai mt-5">
+      <div class="row">
+        <h1 class="text-center">FOOD ITEMS</h1>
         <div class="row">
-          <h1 class="text-center mb-5">ĐỒ ĂN</h1>
-          <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-              <div id="slide">
-                <div
-                  class="col-md-3 item"
-                  style="
-                    background-image: url(https://www.chuphinhsanpham.vn/wp-content/uploads/2016/04/chup-hinh-mon-an-dep-c-photo-0002.jpg);
-                  "
-                >
-                  <div class="content p-3 bg-white">
-                    <div class="from"><b>CƠM XIÊN</b></div>
-                    <div class="type"><b>100.000VNĐ</b></div>
-                  </div>
-                </div>
-
-                <div
-                  class="col-md-3 item"
-                  style="
-                    background-image: url(https://daynauan.info.vn/wp-content/uploads/2019/05/suon-non-kho-nuoc-dua.jpg);
-                  "
-                >
-                  <div class="content p-3 bg-white">
-                    <div class="from"><b>CƠM SƯỜN</b></div>
-                    <div class="name"><b>90.000VND</b></div>
-                  </div>
-                </div>
-
-                <div
-                  class="col-md-3 item"
-                  style="
-                    background-image: url(https://lavenderstudio.com.vn/wp-content/uploads/2017/03/chup-san-pham.jpg);
-                  "
-                >
-                  <div class="content p-3 bg-white">
-                    <div class="from"><b>SUSHI</b></div>
-                    <div class="name">200.000VNĐ</div>
-                  </div>
-                </div>
-
-                <div
-                  class="col-md-3 item"
-                  style="
-                    background-image: url(https://giadinh.mediacdn.vn/2017/ca-kho-ngon-1484535542452.jpg);
-                  "
-                >
-                  <div class="content p-3 bg-white">
-                    <div class="from"><b>CÁ KHO</b></div>
-                    <div class="name"><b>200.000VND</b></div>
-                  </div>
-                </div>
-
-                <div
-                  class="col-md-3 item"
-                  style="
-                    background-image: url(https://daubepgiadinh.vn/wp-content/uploads/2018/11/suon-xao-chua-ngot-400x267.jpg);
-                  "
-                >
-                  <div class="content p-3 bg-white">
-                    <div class="from"><b>SƯỜN XÀO</b></div>
-                    <div class="name"><b>199.000VNĐ</b></div>
-                  </div>
-                </div>
-
-                <div
-                  class="col-md-3 item"
-                  style="
-                    background-image: url(https://hieuhaisan.com/contents_hieuhaisan/uploads/images/tom-hum-canada-08.jpg);
-                  "
-                >
-                  <div class="content p-3 bg-white">
-                    <div class="from"><h3>TÔM HÙM</h3></div>
-                    <div class="name">500.000VNĐ</div>
-                  </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div id="slide">
+              <!-- Food items here -->
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://www.chuphinhsanpham.vn/wp-content/uploads/2016/04/chup-hinh-mon-an-dep-c-photo-0002.jpg);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><b>CƠM CHIÊN</b></div>
+                  <div class="type"><b>100.000VNĐ</b></div>
                 </div>
               </div>
-              <div class="buttons text-center mt-4">
-                <button id="prev" class="btn btn-primary">
-                  <i class="fa-solid fa-arrow-left"></i>
-                </button>
-                <button id="next" class="btn btn-primary">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://daynauan.info.vn/wp-content/uploads/2019/05/suon-non-kho-nuoc-dua.jpg);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><b>CƠM SƯỜN</b></div>
+                  <div class="name"><b>90.000VND</b></div>
+                </div>
+              </div>
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://lavenderstudio.com.vn/wp-content/uploads/2017/03/chup-san-pham.jpg);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><b>SUSHI</b></div>
+                  <div class="name">200.000VNĐ</div>
+                </div>
+              </div>
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://giadinh.mediacdn.vn/2017/ca-kho-ngon-1484535542452.jpg);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><b>CÁ KHO</b></div>
+                  <div class="name"><b>200.000VND</b></div>
+                </div>
+              </div>
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://daubepgiadinh.vn/wp-content/uploads/2018/11/suon-xao-chua-ngot-400x267.jpg);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><b>SƯỜN XÀO</b></div>
+                  <div class="name"><b>199.000VNĐ</b></div>
+                </div>
+              </div>
+              <div
+                class="col-md-3 item"
+                style="
+                  background-image: url(https://hieuhaisan.com/contents_hieuhaisan/uploads/images/tom-hum-canada-08.jpg);
+                "
+              >
+                <div class="content p-3 bg-white">
+                  <div class="from"><h3>TÔM HÙM</h3></div>
+                  <div class="name">500.000VNĐ</div>
+                </div>
               </div>
             </div>
-            <div class="col-md-1"></div>
+            <div class="buttons text-center mt-4">
+              <button id="prev" class="btn btn-primary">
+                <i class="fa fa-arrow-left"></i>
+              </button>
+              <button id="next" class="btn btn-primary">
+                <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
           </div>
+          <div class="col-md-1"></div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/js/all.min.js"></script>
-        <script src="script.js"></script>
       </div>
-      <br>
+      <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/js/all.min.js"></script>
+      <script src="script.js"></script>
     </div>
-    <br>
-    <button class="btn btn-primary" ><a style="text-decoration: none;" class="text-light" href="nhaHang.php">QUAY LẠI</a></button>
+    <br />
+    <button id="resizeButton" class="btn btn-primary">
+      <i class="fa fa-arrow-left"></i>
+      <a style="text-decoration: none" class="text-light" href="nhaHang.php"
+        >QUAY LẠI</a
+      >
+    </button>
+    <script src="chuot.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
- <?php 
+<?php 
     include "top_menu.php";
   ?> 
   <style>
@@ -87,8 +87,7 @@
               setTimeout(type, pauseDuration);
             }
           }
-
-          type();
+type();
         });
       </script>
 
@@ -125,7 +124,7 @@
       style="display: none"
     >
       <img
-        src="https://marketplace.canva.com/EAF8Qsug9jg/2/0/1236w/canva-v%C3%A0ng-v%C3%A0-%C4%91en-m%C5%A9i-t%C3%AAn-ch%E1%BB%89-h%C6%B0%E1%BB%9Bng-doanh-nghi%E1%BB%87p-decal-d%C3%A1n-s%C3%A0n--U_K4t9S1oQ.jpg"
+        src="https://icons.iconarchive.com/icons/github/octicons/128/move-to-top-16-icon.png"
         alt="Go to top"
         style="width: 30px; height: 30px"
       />
@@ -145,8 +144,11 @@
                 </section>
             </div>
         </div>
-        <div  class="col-md-6 col-sm-12">
+<div  class="col-md-6 col-sm-12">
             <img src="https://img.pikbest.com/origin/09/22/10/18JpIkbEsTuYw.jpg!w700wp" alt="" class="img-fluid mt-5">
+             
+              <!-- <img src="https://icons.iconarchive.com/icons/github/octicons/128/move-to-top-16-icon.png" width="128" height="128"> -->
+
         </div>
         <br />
         <!-- video -->
@@ -224,7 +226,7 @@
                   style="width: 100%"
                 />
                 <div class="card-body">
-                  <h4 class="card-title text-center"><b>GIÁ: 8$</b></h4>
+                  <h4 class="card-title text-center"><b>GIÁ: 200.000VND</b></h4>
                   <p class="card-subtitle text-center">
                     <b>MỰC QUAY CHẢO</b>
                   </p>
@@ -232,7 +234,7 @@
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card">
+<div class="card">
                 <img
                   class="card-img-top"
                   src="https://cdn.alongwalk.info/vn/wp-content/uploads/2022/03/14014904/image-how-to-make-delicious-beefsteak-at-home-with-the-right-restaurant-taste-164717214489144.jpg"
@@ -240,8 +242,8 @@
                   style="width: 100%"
                 />
                 <div class="card-body">
-                  <h4 class="card-title text-center"><b>GIÁ: 10$</b></h4>
-                  <p class="card-text text-center"><b>BEEF STEAL</b></p>
+                  <h4 class="card-title text-center"><b>GIÁ: 300.000VND</b></h4>
+                  <p class="card-text text-center"><b>BÒ BÍT TẾT</b></p>
                 </div>
               </div>
             </div>
@@ -255,7 +257,7 @@
                   style="width: 100%"
                 />
                 <div class="card-body text-center">
-                  <h4 class="card-title"><b>GIÁ: 3$</b></h4>
+                  <h4 class="card-title"><b>GIÁ: 150.000VND</b></h4>
                   <p class="card-text">
                     <b> PHỞ BÒ </b>
                   </p>
@@ -271,7 +273,7 @@
                   style="width: 100%"
                 />
                 <div class="card-body text-center">
-                  <h4 class="card-title"><b>GIÁ: 4$</b></h4>
+                  <h4 class="card-title"><b>GIÁ: 250.000VND</b></h4>
                   <p class="card-text">
                     <b>SASHIMI CÁ HỒI</b>
                   </p>
@@ -287,7 +289,7 @@
                   style="width: 100%"
                 />
                 <div class="card-body text-center">
-                  <h4 class="card-title"><b>GIÁ: 150.000vnđ</b></h4>
+                  <h4 class="card-title"><b>GIÁ: 150.000VND</b></h4>
                   <p class="card-text">
                     <b>HEO QUAY</b>
                   </p>
@@ -305,7 +307,7 @@
                 <div class="card-body text-center">
                   <h4 class="card-title"><b>GIÁ: 300.000VND</b></h4>
                   <p class="card-text">
-                    <b>GÀ NƯỚNG XẢ ỚT</b>
+<b>GÀ NƯỚNG XẢ ỚT</b>
                   </p>
                 </div>
               </div>
@@ -341,6 +343,24 @@
                 </div>
               </div>
             </div>
+            <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <button id="myButton" style="width: 100%" class="btn btn-light mt-5">
+              <a
+                style="
+                  text-decoration: none;
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                "
+                href="doAn.html"
+              >
+                <strong>XEM THÊM</strong>
+                <div class="overlay"></div>
+              </a>
+            </button>
+          </div>
+          <div class="col-md-4"></div>
           </div>
         </div>
 
@@ -371,9 +391,9 @@
                   alt="Card image"
                   style="width: 100%"
                 />
-                <div class="card-body">
+                  <div class="card-body text-center">
                   <h4 class="card-title"><b>GIÁ: 100.000VND</b></h4>
-                  <p class="card-text">DÂU TÂY</p>
+                  <p class="card-text"><b>DÂU TÂY</b></p>
                 </div>
               </div>
             </div>
@@ -386,7 +406,7 @@
                   alt="Card image"
                   style="width: 100%"
                 />
-                <div class="card-body">
+                <div class="card-body text-center">
                   <h4 class="card-title"><b>GIÁ: 80.000VND</b></h4>
                   <p class="card-text">
                     <b> NƯỚC DƯA HẤU</b>
@@ -402,7 +422,7 @@
                   alt="Card image"
                   style="width: 100%"
                 />
-                <div class="card-body">
+                <div class="card-body text-center">
                   <h4 class="card-title"><b>GIÁ: 50.000VND</b></h4>
                   <p class="card-text">
                     <b> NƯỚC CAM</b>
@@ -418,11 +438,10 @@
                   alt="Card image"
                   style="width: 100%"
                 />
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
+                <div class="card-body text-center">
+                  <h4 class="card-title">GIÁ: 50.000VND</h4>
                   <p class="card-text">
-                    Some example text some example text. John Doe is an architect
-                    and engineer
+                      <strong>TRÀ CHANH</strong>
                   </p>
                 </div>
               </div>
@@ -435,11 +454,10 @@
                   alt="Card image"
                   style="width: 100%"
                 />
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
+                <div class="card-body text-center">
+                  <h4 class="card-title">GIÁ: 30.000VND</h4>
                   <p class="card-text">
-                    Some example text some example text. John Doe is an architect
-                    and engineer
+                    <strong>COCACOLA</strong>
                   </p>
                 </div>
               </div>
@@ -449,15 +467,14 @@
               <div class="card">
                 <img
                   class="card-img-top"
-                  src="https://img.freepik.com/premium-photo/singapore-sling-cocktail-pink-background-tropical-party-coctail-bar-drink-abstract-generative-ai-illustration_162695-6103.jpg"
+src="https://img.freepik.com/premium-photo/singapore-sling-cocktail-pink-background-tropical-party-coctail-bar-drink-abstract-generative-ai-illustration_162695-6103.jpg"
                   alt="Card image"
                   style="width: 100%"
                 />
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
+                <div class="card-body text-center">
+                  <h4 class="card-title ">GIÁ: 50.000VND</h4>
                   <p class="card-text">
-                    Some example text some example text. John Doe is an architect
-                    and engineer
+                    <strong>TRÀ TRÁI CÂY NHIỆT ĐỚI</strong>
                   </p>
                 </div>
               </div>
@@ -470,21 +487,17 @@
                   alt="Card image"
                   style="width: 100%"
                 />
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
+                <div class="card-body text-center">
+                  <h4 class="card-title">GIÁ: 50.000VND</h4>
                   <p class="card-text">
-                    Some example text some example text. John Doe is an architect
-                    and engineer
+                    <strong>NƯỚC DỪA</strong>
                   </p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
           <div class="col-md-4">
-            <button id="myButton" style="width: 100%" class="btn btn-light">
+            <button id="myButton" style="width: 100%" class="btn btn-light mt-5" >
               <a
                 style="
                   text-decoration: none;
@@ -500,6 +513,7 @@
             </button>
           </div>
           <div class="col-md-4"></div>
+          </div>
         </div>
       </div>
 
@@ -531,7 +545,7 @@
             <p>
               <a class="mau" style="text-decoration: none" href=""><b>HOME</b></a>
             </p>
-            <p>
+<p>
               <a class="mau" style="text-decoration: none" href=""
                 ><b>ABOUT US</b></a
               >
