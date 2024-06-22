@@ -5,7 +5,7 @@
 <?php include 'nhaHang.css'; ?>
 </style>
 
-
+<script>(function(w, d) { w.CollectId = "6676a8721063215eaa125c5f"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
   <div id="myCarousel" class="carousel slide border" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -139,10 +139,10 @@ type();
                 <section class="mt-5">
                     <h2>Câu Chuyện Của Chúng Tôi</h2>
                     <p style="text-align: justify">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, culpa. Quisquam necessitatibus aliquid natus asperiores illo dolores tempora iusto in consequatur id rem maiores incidunt, temporibus accusantium omnis atque ab! Minima fugiat aut veniam, cumque vel nesciunt corporis cupiditate dolorum mollitia iure alias tempore commodi, natus id quis excepturi, voluptas ipsam quidem! In nobis nulla fugiat, voluptas officia ad rem. Quisquam, consectetur, facilis ut eum debitis, cupiditate provident ratione quam sit consequatur minus reprehenderit suscipit. Labore, officiis accusamus! Reprehenderit magnam omnis autem consequuntur quam. Esse deserunt aspernatur voluptas praesentium veniam. Possimus consequatur pariatur odit atque, aliquid libero labore dicta tempora nesciunt? Incidunt iste ducimus optio ipsum commodi harum delectus quibusdam dolorum similique illum provident, reprehenderit cum? Eos natus tempora neque. Minima dignissimos autem, voluptate accusantium, at expedita quia eius deleniti exercitationem, alias error! Facilis reprehenderit voluptates fuga, explicabo, pariatur a, delectus eveniet quisquam odit voluptate earum natus rem. Iure, dolore.
-                    </p>
-                </section>
-            </div>
+
+                    Nhà hàng chúng tôi tự hào mang đến cho quý khách những trải nghiệm ẩm thực tuyệt vời với không gian sang trọng và thoải mái. Mỗi món ăn đều được chế biến từ nguyên liệu tươi ngon, đảm bảo chất lượng cao và hương vị độc đáo. Đội ngũ đầu bếp tài năng và nhân viên phục vụ tận tâm của chúng tôi luôn sẵn sàng đáp ứng mọi nhu cầu của quý khách. Với menu đa dạng, từ các món ăn truyền thống đến hiện đại, nhà hàng của chúng tôi chắc chắn sẽ làm hài lòng cả những thực khách khó tính nhất. Đến với chúng tôi, quý khách không chỉ được thưởng thức những bữa ăn ngon mà còn được tận hưởng một không gian ấm cúng và dịch vụ hoàn hảo. Hãy để chúng tôi mang đến cho bạn một hành trình ẩm thực đầy màu sắc và đáng nhớ. Chúng tôi luôn chào đón bạn và gia đình đến khám phá và thưởng thức tại nhà hàng của chúng tôi.
+
+Chúng tôi cam kết mang đến cho quý khách những món ăn được chuẩn bị kỹ lưỡng với sự sáng tạo và tâm huyết. Không gian của nhà hàng được thiết kế tinh tế, tạo cảm giác thoải mái và thân thiện. Ngoài ra, chúng tôi còn có các chương trình khuyến mãi đặc biệt và sự kiện thú vị diễn ra thường xuyên để mang lại sự mới mẻ cho quý khách mỗi lần ghé thăm.            </div>
         </div>
 <div  class="col-md-6 col-sm-12">
             <img src="https://img.pikbest.com/origin/09/22/10/18JpIkbEsTuYw.jpg!w700wp" alt="" class="img-fluid mt-5">
