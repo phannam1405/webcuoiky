@@ -13,7 +13,7 @@
             position: relative;
             overflow: hidden;
             width: 100%;
-            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            padding-top: 56.25%; 
         }
         .map-container iframe {
             position: absolute;

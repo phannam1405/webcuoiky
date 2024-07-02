@@ -45,19 +45,19 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link hover-underline" href="nhaHang.php#thucdon"><b>MENU</b></a>
+              <a class="nav-link hover-underline" href="nhaHang.php#thucdon"><b>THỰC ĐƠN</b></a>
             </li>
             <li class="nav-item hover-underline">
-              <a class="nav-link" href="nhaHang.php#about"><b>ABOUT US</b></a>
+              <a class="nav-link" href="nhaHang.php#about"><b>GIỚI THIỆU</b></a>
             </li>
             <li class="nav-item hover-underline">
-              <a class="nav-link" href="dauBep.php"><b>OUR CHEFS</b></a>
+              <a class="nav-link" href="dauBep.php"><b>ĐẦU BẾP</b></a>
             </li>
             <li class="nav-item hover-underline">
-              <a class="nav-link" href="nhaHang.php#footer"><b>CONTACT</b></a>
+              <a class="nav-link" href="nhaHang.php#footer"><b>LIÊN HỆ</b></a>
             </li>
             <li class="nav-item hover-underline">
-              <a class="nav-link" href="table.html"><b>TABLE</b></a>
+              <a class="nav-link" href="table.html"><b>ĐẶT BÀN</b></a>
             </li>
             <li class="nav-item hover-underline">
               <a class="nav-link" href="register.php"><b>ĐĂNG KÝ</b></a>

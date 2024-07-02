@@ -1,69 +1,93 @@
 <?php 
     include "top_menu.php";
-  ?> 
-  <style>
+?> 
+<style>
 <?php include 'nhaHang.css'; ?>
 </style>
-
-<script>(function(w, d) { w.CollectId = "6676a8721063215eaa125c5f"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
-  <div id="myCarousel" class="carousel slide border" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block w-100"
-              src="https://kansaipaint.com.vn/wp-content/uploads/2023/09/quan-an-nen-son-mau-gi-4.jpg"
-              alt="Leopard"
-            />
-            <div class="carousel-caption d-none d-sm-block">
-              <p id="welcome-text-1">XIN CHÀO QUÝ KHÁCH</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="https://i.pinimg.com/originals/f8/da/c3/f8dac363e2c288026877d8c5a0c51d52.jpg"
-              alt="Cat"
-            />
-            <div class="carousel-caption d-none d-sm-block">
-              <p id="welcome-text-2">XIN CHÀO QUÝ KHÁCH</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="https://i.pinimg.com/564x/33/d7/f5/33d7f59b02d941c91d695f398e198cc6.jpg"
-              alt="Lion"
-            />
-            <div class="carousel-caption d-none d-sm-block">
-              <p id="welcome-text-3">XIN CHÀO QUÝ KHÁCH</p>
-            </div>
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#myCarousel"
-          role="button"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#myCarousel"
-          role="button"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
+<script>(function(w, d) { w.CollectId = "66778e563e99425e992dbba5"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img
+        class="d-block w-100"
+        src="https://kansaipaint.com.vn/wp-content/uploads/2023/09/quan-an-nen-son-mau-gi-4.jpg"
+        alt="Leopard"
+      />
+      <div class="carousel-caption d-none d-sm-block">
+        <p id="welcome-text-1">XIN CHÀO QUÝ KHÁCH</p>
       </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        class="d-block w-100"
+        src="https://i.pinimg.com/originals/f8/da/c3/f8dac363e2c288026877d8c5a0c51d52.jpg"
+        alt="Cat"
+      />
+      <div class="carousel-caption d-none d-sm-block">
+        <p id="welcome-text-2">XIN CHÀO QUÝ KHÁCH</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        class="d-block w-100"
+        src="https://i.pinimg.com/564x/33/d7/f5/33d7f59b02d941c91d695f398e198cc6.jpg"
+        alt="Lion"
+      />
+      <div class="carousel-caption d-none d-sm-block">
+        <p id="welcome-text-3">XIN CHÀO QUÝ KHÁCH</p>
+      </div>
+    </div>
+  </div>
+  
+  <a
+    class="carousel-control-prev"
+    href="#myCarousel"
+    role="button"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a
+    class="carousel-control-next"
+    href="#myCarousel"
+    role="button"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
 
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"
-      ></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"
+></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var a = 1;
+    var p = document.getElementById("welcome-text-" + a);
+    var originContent = p.innerHTML;
+    var index = 0;
+    var typingInterval = 200; // Thời gian giữa mỗi lần cập nhật ký tự (200ms)
+    var pauseDuration = 500; // Thời gian dừng (2000ms = 2 giây)
+
+    function type() {
+      p.innerHTML = originContent.substring(0, index);
+      index++;
+      if (index <= originContent.length) {
+        setTimeout(type, typingInterval);
+      } else {
+        index = 0;
+        setTimeout(type, pauseDuration);
+      }
+    }
+    type();
+  });
+</script>
+
 
 
       
@@ -172,7 +196,7 @@ Chúng tôi cam kết mang đến cho quý khách những món ăn được chu�
           style="color: aliceblue; margin-top: 10px"
           class="text-center text-dark"
         >
-          <u>THỰC ĐƠN MÓN ĂN</u>
+          <u id="thucdon">THỰC ĐƠN MÓN ĂN</u>
         </h1>
         <h2
           style="margin-bottom: 30px; color: aliceblue"
@@ -233,7 +257,7 @@ Chúng tôi cam kết mang đến cho quý khách những món ăn được chu�
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
 <div class="card">
                 <img
                   class="card-img-top"
@@ -248,7 +272,7 @@ Chúng tôi cam kết mang đến cho quý khách những món ăn được chu�
               </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-4">
               <div class="card">
                 <img
                   class="card-img-top"
@@ -264,7 +288,7 @@ Chúng tôi cam kết mang đến cho quý khách những món ăn được chu�
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
               <div class="card">
                 <img
                   class="card-img-top"
@@ -543,26 +567,26 @@ src="https://img.freepik.com/premium-photo/singapore-sling-cocktail-pink-backgro
         <div class="row">
           <div class="col-md-4 text-center mt-5">
             <p>
-              <a class="mau" style="text-decoration: none" href=""><b>HOME</b></a>
+              <a class="mau" style="text-decoration: none" href=""><b>TRANG CHỦ</b></a>
             </p>
 <p>
               <a class="mau" style="text-decoration: none" href=""
-                ><b>ABOUT US</b></a
+                ><b>GIỚI THIỆU</b></a
               >
             </p>
             <p>
               <a class="mau" style="text-decoration: none" href=""
-                ><b>OUR CHEFFS</b></a
+                ><b>ĐẦU BẾP</b></a
               >
             </p>
             <p>
               <a class="mau" style="text-decoration: none" href=""
-                ><b>CONTACT</b></a
+                ><b>LIÊN HỆ</b></a
               >
             </p>
             <p>
               <a class="mau" style="text-decoration: none" href=""
-                ><b>TABLE</b></a
+                ><b>ĐẶT BÀN</b></a
               >
             </p>
           </div>

@@ -100,7 +100,6 @@
   padding: 20px;
   border-radius: 10px;
 }
-/* CSS cho ảnh */
 .card-img-top {
   max-width: 100%;
   /* max-height: 180px; */
@@ -114,12 +113,10 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hiệu ứng khi di chuột vào ảnh */
 .card-img-top:hover {
-  transform: scale(1.05); /* Phóng to ảnh */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm đổ bóng */
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-/* tạo chuyển động cho nút xem thêm */
 #myButton {
   position: relative;
   overflow: hidden;
@@ -202,7 +199,7 @@
 .mau {
   position: relative;
   text-decoration: none;
-  color: inherit; /* Giữ nguyên màu sắc của link */
+  color: black; /* Giữ nguyên màu sắc của link */
   padding-bottom: 5px;
 }
 

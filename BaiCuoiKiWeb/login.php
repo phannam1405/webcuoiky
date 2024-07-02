@@ -2,7 +2,7 @@
 include 'top_menu.php';
 include 'cfg/dbconnect.php';
 
-session_start(); // Khởi động phiên làm việc
+session_start(); 
 $email = $err_msg = "";
 
 if (isset($_POST['submit'])) {
@@ -17,10 +17,9 @@ if (isset($_POST['submit'])) {
         $result = $stmt->get_result();
         
         if ($result->num_rows == 1) {
-            $row = $result->fetch_assoc();
+            $row = $result->fetch_assoc();  // Lấy thông tin người dùng.
             $hashed_password = $row['password'];
             
-            // Kiểm tra mật khẩu nhập vào với mật khẩu đã mã hóa trong cơ sở dữ liệu
             if (password_verify($password, $hashed_password)) {
                 $_SESSION['name'] = $row['name'];
                 $_SESSION['userid'] = $email;
